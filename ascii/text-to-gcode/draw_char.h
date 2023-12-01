@@ -1,0 +1,291 @@
+#include "numbers/0.h"
+#include "numbers/1.h"
+#include "numbers/2.h"
+#include "numbers/3.h"
+#include "numbers/4.h"
+#include "numbers/5.h"
+#include "numbers/6.h"
+#include "numbers/7.h"
+#include "numbers/8.h"
+#include "numbers/9.h"
+#include "lowercase/a.h"
+#include "lowercase/b.h"
+#include "lowercase/c.h"
+#include "lowercase/d.h"
+#include "lowercase/e.h"
+#include "lowercase/f.h"
+#include "lowercase/g.h"
+#include "lowercase/h.h"
+#include "lowercase/i.h"
+#include "lowercase/j.h"
+#include "lowercase/k.h"
+#include "lowercase/l.h"
+#include "lowercase/m.h"
+#include "lowercase/n.h"
+#include "lowercase/o.h"
+#include "lowercase/p.h"
+#include "lowercase/q.h"
+#include "lowercase/r.h"
+#include "lowercase/s.h"
+#include "lowercase/t.h"
+#include "lowercase/u.h"
+#include "lowercase/v.h"
+#include "lowercase/w.h"
+#include "lowercase/x.h"
+#include "lowercase/y.h"
+#include "lowercase/z.h"
+#include "uppercase/A.h"
+#include "uppercase/B.h"
+#include "uppercase/C.h"
+#include "uppercase/D.h"
+#include "uppercase/E.h"
+#include "uppercase/F.h"
+#include "uppercase/G.h"
+#include "uppercase/H.h"
+#include "uppercase/I.h"
+#include "uppercase/J.h"
+#include "uppercase/K.h"
+#include "uppercase/L.h"
+#include "uppercase/M.h"
+#include "uppercase/N.h"
+#include "uppercase/O.h"
+#include "uppercase/P.h"
+#include "uppercase/Q.h"
+#include "uppercase/R.h"
+#include "uppercase/S.h"
+#include "uppercase/T.h"
+#include "uppercase/U.h"
+#include "uppercase/V.h"
+#include "uppercase/W.h"
+#include "uppercase/X.h"
+#include "uppercase/Y.h"
+#include "uppercase/Z.h"
+#include "symbols/ampersand.h"
+#include "symbols/apostrophe.h"
+#include "symbols/asterisk.h"
+#include "symbols/at.h"
+#include "symbols/backslash.h"
+#include "symbols/backtick.h"
+#include "symbols/caret.h"
+#include "symbols/colon.h"
+#include "symbols/comma.h"
+#include "symbols/dollar.h"
+#include "symbols/equals.h"
+#include "symbols/exclamation_mark.h"
+#include "symbols/full_point.h"
+#include "symbols/greater_than.h"
+#include "symbols/hash.h"
+#include "symbols/left_curly_bracket.h"
+#include "symbols/left_parenthesis.h"
+#include "symbols/left_square_bracket.h"
+#include "symbols/less_than.h"
+#include "symbols/minus.h"
+#include "symbols/percent.h"
+#include "symbols/plus.h"
+#include "symbols/question_mark.h"
+#include "symbols/quotation_marks.h"
+#include "symbols/right_curly_bracket.h"
+#include "symbols/right_parenthesis.h"
+#include "symbols/right_square_bracket.h"
+#include "symbols/semicolon.h"
+#include "symbols/slash.h"
+#include "symbols/space.h"
+#include "symbols/tilde.h"
+#include "symbols/underscore.h"
+#include "symbols/vertical_bar.h"
+int draw_char(char c) {
+	switch(c) {
+		case '0':
+			return draw_0();
+		case '1':
+			return draw_1();
+		case '2':
+			return draw_2();
+		case '3':
+			return draw_3();
+		case '4':
+			return draw_4();
+		case '5':
+			return draw_5();
+		case '6':
+			return draw_6();
+		case '7':
+			return draw_7();
+		case '8':
+			return draw_8();
+		case '9':
+			return draw_9();
+		case 'a':
+			return draw_a();
+		case 'b':
+			return draw_b();
+		case 'c':
+			return draw_c();
+		case 'd':
+			return draw_d();
+		case 'e':
+			return draw_e();
+		case 'f':
+			return draw_f();
+		case 'g':
+			return draw_g();
+		case 'h':
+			return draw_h();
+		case 'i':
+			return draw_i();
+		case 'j':
+			return draw_j();
+		case 'k':
+			return draw_k();
+		case 'l':
+			return draw_l();
+		case 'm':
+			return draw_m();
+		case 'n':
+			return draw_n();
+		case 'o':
+			return draw_o();
+		case 'p':
+			return draw_p();
+		case 'q':
+			return draw_q();
+		case 'r':
+			return draw_r();
+		case 's':
+			return draw_s();
+		case 't':
+			return draw_t();
+		case 'u':
+			return draw_u();
+		case 'v':
+			return draw_v();
+		case 'w':
+			return draw_w();
+		case 'x':
+			return draw_x();
+		case 'y':
+			return draw_y();
+		case 'z':
+			return draw_z();
+		case 'A':
+			return draw_A();
+		case 'B':
+			return draw_B();
+		case 'C':
+			return draw_C();
+		case 'D':
+			return draw_D();
+		case 'E':
+			return draw_E();
+		case 'F':
+			return draw_F();
+		case 'G':
+			return draw_G();
+		case 'H':
+			return draw_H();
+		case 'I':
+			return draw_I();
+		case 'J':
+			return draw_J();
+		case 'K':
+			return draw_K();
+		case 'L':
+			return draw_L();
+		case 'M':
+			return draw_M();
+		case 'N':
+			return draw_N();
+		case 'O':
+			return draw_O();
+		case 'P':
+			return draw_P();
+		case 'Q':
+			return draw_Q();
+		case 'R':
+			return draw_R();
+		case 'S':
+			return draw_S();
+		case 'T':
+			return draw_T();
+		case 'U':
+			return draw_U();
+		case 'V':
+			return draw_V();
+		case 'W':
+			return draw_W();
+		case 'X':
+			return draw_X();
+		case 'Y':
+			return draw_Y();
+		case 'Z':
+			return draw_Z();
+		case '&':
+			return draw_ampersand();
+		case '\'':
+			return draw_apostrophe();
+		case '*':
+			return draw_asterisk();
+		case '@':
+			return draw_at();
+		case '\\':
+			return draw_backslash();
+		case '`':
+			return draw_backtick();
+		case '^':
+			return draw_caret();
+		case ':':
+			return draw_colon();
+		case ',':
+			return draw_comma();
+		case '$':
+			return draw_dollar();
+		case '=':
+			return draw_equals();
+		case '!':
+			return draw_exclamation_mark();
+		case '.':
+			return draw_full_point();
+		case '>':
+			return draw_greater_than();
+		case '#':
+			return draw_hash();
+		case '{':
+			return draw_left_curly_bracket();
+		case '(':
+			return draw_left_parenthesis();
+		case '[':
+			return draw_left_square_bracket();
+		case '<':
+			return draw_less_than();
+		case '-':
+			return draw_minus();
+		case '%':
+			return draw_percent();
+		case '+':
+			return draw_plus();
+		case '?':
+			return draw_question_mark();
+		case '\"':
+			return draw_quotation_marks();
+		case '}':
+			return draw_right_curly_bracket();
+		case ')':
+			return draw_right_parenthesis();
+		case ']':
+			return draw_right_square_bracket();
+		case ';':
+			return draw_semicolon();
+		case '/':
+			return draw_slash();
+		case ' ':
+			return draw_space();
+		case '~':
+			return draw_tilde();
+		case '_':
+			return draw_underscore();
+		case '|':
+			return draw_vertical_bar();
+		default:
+			return -1;
+	}
+}
