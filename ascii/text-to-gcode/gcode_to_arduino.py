@@ -26,7 +26,7 @@ if __name__ == '__main__':
             data = data[1:] #ignore first line
         
         lines = [
-            '#include ../constants.h',
+            '#include "../constants.h"',
             'int draw_' + (exp_name if exp_name else c) + '() {',
         ]
         max_x = float('-inf')

@@ -1,8 +1,8 @@
 #include "../constants.h"
 int draw_apostrophe() {
 	pen_up();
-	move_to_relative(142, 861);
+	move_to_relative(0, 844);
 	pen_down();
-	move_to_relative(142, 621);
-	return 142;
+	move_to_relative(0, 608);
+	return 0;
 }

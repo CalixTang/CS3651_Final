@@ -1,23 +1,23 @@
 #include "../constants.h"
 int draw_C() {
 	pen_up();
-	move_to_relative(874, 631);
+	move_to_relative(731, 618);
 	pen_down();
-	move_to_relative(831, 731);
-	move_to_relative(755, 808);
-	move_to_relative(655, 859);
-	move_to_relative(537, 878);
-	move_to_relative(372, 847);
-	move_to_relative(248, 758);
-	move_to_relative(170, 618);
-	move_to_relative(142, 431);
-	move_to_relative(170, 244);
-	move_to_relative(248, 104);
-	move_to_relative(372, 15);
-	move_to_relative(537, -15);
-	move_to_relative(655, 2);
-	move_to_relative(755, 54);
-	move_to_relative(831, 131);
-	move_to_relative(874, 231);
-	return 874;
+	move_to_relative(688, 716);
+	move_to_relative(612, 792);
+	move_to_relative(512, 842);
+	move_to_relative(394, 861);
+	move_to_relative(230, 830);
+	move_to_relative(105, 743);
+	move_to_relative(27, 606);
+	move_to_relative(0, 422);
+	move_to_relative(27, 239);
+	move_to_relative(105, 102);
+	move_to_relative(230, 15);
+	move_to_relative(394, -15);
+	move_to_relative(512, 2);
+	move_to_relative(612, 53);
+	move_to_relative(688, 128);
+	move_to_relative(731, 226);
+	return 731;
 }

@@ -1,8 +1,8 @@
 #include "../constants.h"
 int draw_minus() {
 	pen_up();
-	move_to_relative(142, 358);
+	move_to_relative(0, 351);
 	pen_down();
-	move_to_relative(617, 358);
-	return 617;
+	move_to_relative(474, 351);
+	return 474;
 }

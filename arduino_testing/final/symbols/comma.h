@@ -1,10 +1,10 @@
 #include "../constants.h"
 int draw_comma() {
 	pen_up();
-	move_to_relative(257, 114);
+	move_to_relative(114, 112);
 	pen_down();
-	move_to_relative(257, 0);
-	move_to_relative(228, -118);
-	move_to_relative(142, -162);
-	return 257;
+	move_to_relative(114, 0);
+	move_to_relative(85, -116);
+	move_to_relative(0, -159);
+	return 114;
 }

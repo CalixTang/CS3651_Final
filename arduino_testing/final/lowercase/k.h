@@ -1,16 +1,16 @@
 #include "../constants.h"
 int draw_k() {
 	pen_up();
-	move_to_relative(142, 861);
+	move_to_relative(0, 844);
 	pen_down();
-	move_to_relative(142, 0);
+	move_to_relative(0, 0);
 	pen_up();
-	move_to_relative(607, 0);
+	move_to_relative(464, 0);
 	pen_down();
-	move_to_relative(328, 399);
+	move_to_relative(185, 391);
 	pen_up();
-	move_to_relative(142, 245);
+	move_to_relative(0, 240);
 	pen_down();
-	move_to_relative(581, 611);
-	return 607;
+	move_to_relative(438, 599);
+	return 464;
 }

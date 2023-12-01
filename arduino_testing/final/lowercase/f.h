@@ -1,17 +1,17 @@
 #include "../constants.h"
 int draw_f() {
 	pen_up();
-	move_to_relative(445, 867);
+	move_to_relative(302, 849);
 	pen_down();
-	move_to_relative(407, 868);
-	move_to_relative(361, 857);
-	move_to_relative(321, 824);
-	move_to_relative(290, 777);
-	move_to_relative(270, 681);
-	move_to_relative(270, 0);
+	move_to_relative(264, 851);
+	move_to_relative(218, 840);
+	move_to_relative(178, 807);
+	move_to_relative(147, 761);
+	move_to_relative(127, 667);
+	move_to_relative(127, 0);
 	pen_up();
-	move_to_relative(142, 578);
+	move_to_relative(0, 567);
 	pen_down();
-	move_to_relative(417, 578);
-	return 445;
+	move_to_relative(274, 567);
+	return 302;
 }

@@ -1,9 +1,9 @@
 #include "../constants.h"
 int draw_caret() {
 	pen_up();
-	move_to_relative(142, 630);
+	move_to_relative(0, 617);
 	pen_down();
-	move_to_relative(294, 829);
-	move_to_relative(444, 630);
-	return 444;
+	move_to_relative(151, 813);
+	move_to_relative(301, 617);
+	return 301;
 }

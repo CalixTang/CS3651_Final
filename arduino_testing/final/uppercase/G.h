@@ -1,26 +1,26 @@
 #include "../constants.h"
 int draw_G() {
 	pen_up();
-	move_to_relative(915, 630);
+	move_to_relative(772, 617);
 	pen_down();
-	move_to_relative(871, 731);
-	move_to_relative(792, 809);
-	move_to_relative(682, 859);
-	move_to_relative(551, 878);
-	move_to_relative(385, 847);
-	move_to_relative(257, 758);
-	move_to_relative(172, 618);
-	move_to_relative(142, 431);
-	move_to_relative(172, 244);
-	move_to_relative(257, 104);
-	move_to_relative(385, 15);
-	move_to_relative(551, -15);
-	move_to_relative(682, 2);
-	move_to_relative(728, 14);
-	move_to_relative(805, 54);
-	move_to_relative(871, 114);
-	move_to_relative(935, 214);
-	move_to_relative(935, 388);
-	move_to_relative(600, 388);
-	return 935;
+	move_to_relative(728, 716);
+	move_to_relative(650, 793);
+	move_to_relative(540, 842);
+	move_to_relative(408, 861);
+	move_to_relative(242, 830);
+	move_to_relative(114, 743);
+	move_to_relative(30, 606);
+	move_to_relative(0, 422);
+	move_to_relative(30, 239);
+	move_to_relative(114, 102);
+	move_to_relative(242, 15);
+	move_to_relative(408, -15);
+	move_to_relative(540, 2);
+	move_to_relative(585, 14);
+	move_to_relative(662, 53);
+	move_to_relative(728, 112);
+	move_to_relative(792, 210);
+	move_to_relative(792, 380);
+	move_to_relative(457, 380);
+	return 792;
 }

@@ -1,11 +1,11 @@
 #include "../constants.h"
 int draw_1() {
 	pen_up();
-	move_to_relative(142, 638);
+	move_to_relative(0, 625);
 	pen_down();
-	move_to_relative(262, 700);
-	move_to_relative(355, 778);
-	move_to_relative(418, 861);
-	move_to_relative(418, 0);
-	return 418;
+	move_to_relative(120, 686);
+	move_to_relative(212, 763);
+	move_to_relative(275, 844);
+	move_to_relative(275, 0);
+	return 275;
 }

@@ -1,10 +1,10 @@
 #include "../constants.h"
 int draw_N() {
 	pen_up();
-	move_to_relative(142, 0);
+	move_to_relative(0, 0);
 	pen_down();
-	move_to_relative(142, 862);
-	move_to_relative(814, 0);
-	move_to_relative(814, 862);
-	return 814;
+	move_to_relative(0, 845);
+	move_to_relative(671, 0);
+	move_to_relative(671, 845);
+	return 671;
 }

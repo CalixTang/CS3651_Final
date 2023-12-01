@@ -1,24 +1,24 @@
 #include "../constants.h"
 int draw_e() {
 	pen_up();
-	move_to_relative(142, 305);
+	move_to_relative(0, 299);
 	pen_down();
-	move_to_relative(685, 305);
-	move_to_relative(667, 439);
-	move_to_relative(612, 540);
-	move_to_relative(527, 604);
-	move_to_relative(414, 625);
-	move_to_relative(304, 604);
-	move_to_relative(218, 540);
-	move_to_relative(162, 439);
-	move_to_relative(142, 305);
-	move_to_relative(162, 170);
-	move_to_relative(221, 68);
-	move_to_relative(310, 5);
-	move_to_relative(427, -15);
-	move_to_relative(514, -4);
-	move_to_relative(587, 31);
-	move_to_relative(641, 87);
-	move_to_relative(671, 164);
-	return 685;
+	move_to_relative(542, 299);
+	move_to_relative(524, 431);
+	move_to_relative(470, 529);
+	move_to_relative(384, 592);
+	move_to_relative(271, 613);
+	move_to_relative(161, 592);
+	move_to_relative(75, 529);
+	move_to_relative(20, 431);
+	move_to_relative(0, 299);
+	move_to_relative(20, 166);
+	move_to_relative(78, 67);
+	move_to_relative(167, 5);
+	move_to_relative(284, -15);
+	move_to_relative(371, -4);
+	move_to_relative(444, 30);
+	move_to_relative(498, 85);
+	move_to_relative(528, 160);
+	return 542;
 }

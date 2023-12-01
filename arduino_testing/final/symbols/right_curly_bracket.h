@@ -1,25 +1,25 @@
 #include "../constants.h"
 int draw_right_curly_bracket() {
 	pen_up();
-	move_to_relative(142, 861);
+	move_to_relative(0, 844);
 	pen_down();
-	move_to_relative(237, 861);
-	move_to_relative(280, 854);
-	move_to_relative(304, 831);
-	move_to_relative(317, 791);
-	move_to_relative(321, 732);
-	move_to_relative(322, 582);
-	move_to_relative(340, 509);
-	move_to_relative(392, 411);
-	move_to_relative(464, 362);
-	move_to_relative(392, 314);
-	move_to_relative(340, 215);
-	move_to_relative(322, 142);
-	move_to_relative(321, -7);
-	move_to_relative(317, -65);
-	move_to_relative(304, -105);
-	move_to_relative(280, -128);
-	move_to_relative(237, -135);
-	move_to_relative(142, -135);
-	return 464;
+	move_to_relative(94, 844);
+	move_to_relative(137, 837);
+	move_to_relative(161, 814);
+	move_to_relative(174, 775);
+	move_to_relative(178, 718);
+	move_to_relative(180, 571);
+	move_to_relative(197, 499);
+	move_to_relative(250, 403);
+	move_to_relative(321, 355);
+	move_to_relative(250, 308);
+	move_to_relative(197, 211);
+	move_to_relative(180, 140);
+	move_to_relative(178, -7);
+	move_to_relative(174, -64);
+	move_to_relative(161, -103);
+	move_to_relative(137, -126);
+	move_to_relative(94, -133);
+	move_to_relative(0, -133);
+	return 321;
 }
