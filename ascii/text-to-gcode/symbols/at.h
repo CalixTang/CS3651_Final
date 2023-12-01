@@ -1,0 +1,45 @@
+#include ../constants.h
+int draw_at() {
+	pen_up();
+	move_to_relative(664, -114);
+	pen_down();
+	move_to_relative(572, -128);
+	move_to_relative(474, -133);
+	move_to_relative(282, -95);
+	move_to_relative(132, 8);
+	move_to_relative(34, 168);
+	move_to_relative(0, 368);
+	move_to_relative(37, 564);
+	move_to_relative(138, 723);
+	move_to_relative(289, 830);
+	move_to_relative(477, 868);
+	move_to_relative(667, 833);
+	move_to_relative(810, 733);
+	move_to_relative(901, 578);
+	move_to_relative(932, 378);
+	move_to_relative(920, 250);
+	move_to_relative(882, 147);
+	move_to_relative(827, 75);
+	move_to_relative(754, 48);
+	move_to_relative(710, 56);
+	move_to_relative(668, 75);
+	move_to_relative(634, 112);
+	move_to_relative(608, 166);
+	move_to_relative(607, 618);
+	pen_up();
+	move_to_relative(607, 543);
+	pen_down();
+	move_to_relative(525, 597);
+	move_to_relative(458, 610);
+	move_to_relative(365, 592);
+	move_to_relative(292, 540);
+	move_to_relative(242, 460);
+	move_to_relative(224, 358);
+	move_to_relative(238, 252);
+	move_to_relative(278, 170);
+	move_to_relative(341, 119);
+	move_to_relative(424, 100);
+	move_to_relative(521, 116);
+	move_to_relative(608, 182);
+	return 932;
+}
