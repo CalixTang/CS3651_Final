@@ -286,6 +286,8 @@ int draw_char(char c) {
 			return draw_vertical_bar();
 		case ' ':
 			return draw_space();
+    case '\n';
+      return -2;
 		default:
 			return -1;
 	}

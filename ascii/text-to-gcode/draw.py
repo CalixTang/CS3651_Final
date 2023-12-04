@@ -48,6 +48,8 @@ if __name__ == '__main__':
         lines.append('\t\tcase \'' + sc + '\':')
         lines.append('\t\t\treturn draw_' + char_to_name[sc] + '();')
 
+    lines.append("\t\case '\\n':")
+    lines.append('\t\t\treturn -2;')
     lines.append('\t\tdefault:')
     lines.append('\t\t\treturn -1;')
     lines.append('\t}')

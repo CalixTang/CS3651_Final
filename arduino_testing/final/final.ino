@@ -68,23 +68,27 @@ void loop() {
 
       //draw character
       int char_width = draw_char(c);
-      if (char_width != -1) {
+      if (char_width > -1) {
 
         //move one cell over upon success
         if (anchor_x + 2 * char_width + CHAR_PADDING < MAX_X) {
           anchor_x = anchor_x + char_width + CHAR_PADDING;
         } else {
-          anchor_x = 0;
           if (anchor_y > MIN_Y + CHAR_HEIGHT) { //I want to keep the 'bottom row' empty because of characters like j
-            anchor_y = anchor_y - CHAR_HEIGHT;
+            new_line();
           } else {
             //move back up to top lol
-            anchor_y = MAX_Y - CHAR_HEIGHT;
+            new_page();
           }
+        }
+      } else {
+        if (char_width == -2) {
+          new_line();
         }
       }
     }
     //once the buffer is no longer filled
+    pen_up();
     bufferFilled = false;
     isWriting = false;
     Serial.println("Finished printing. Please input new message to print: ");
@@ -164,7 +168,16 @@ void home_z() {
   Serial.println("Z axis homed");
 }
 
+void new_line() {
+  anchor_x = 0;
+  anchor_y = anchor_y - CHAR_HEIGHT;
+}
 
+
+void new_page() {
+  anchor_x = 0;
+  anchor_y = MAX_Y - CHAR_HEIGHT;
+}
 
 
 
