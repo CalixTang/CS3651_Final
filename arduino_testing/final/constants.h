@@ -21,7 +21,7 @@
 
 // #define CHAR_WIDTH 800
 #define CHAR_HEIGHT 1400
-#define CHAR_PADDING 30
+#define CHAR_PADDING 50
 
 #define CTRL_STEP_DELAY 300
 

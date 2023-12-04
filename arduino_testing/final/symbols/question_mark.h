@@ -21,15 +21,15 @@ int draw_question_mark() {
 	move_to_relative(208, 271);
 	move_to_relative(201, 198);
 	pen_up();
-	move_to_relative(201, 28);
+	move_to_relative(201, 56);
 	pen_down();
-	move_to_relative(211, 23);
-	move_to_relative(215, 14);
-	move_to_relative(211, 4);
+	move_to_relative(221, 47);
+	move_to_relative(230, 28);
+	move_to_relative(221, 8);
 	move_to_relative(201, 0);
-	move_to_relative(191, 4);
-	move_to_relative(187, 14);
-	move_to_relative(191, 23);
-	move_to_relative(201, 28);
+	move_to_relative(181, 8);
+	move_to_relative(172, 28);
+	move_to_relative(181, 47);
+	move_to_relative(201, 56);
 	return 465;
 }
